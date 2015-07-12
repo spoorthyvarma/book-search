@@ -1,0 +1,32 @@
+
+<html>
+	<head id ="hd"><h1><center>SEARCH AT !MASK'D</center></h1></head>
+<body><center>
+enter no of books :
+
+<input type="text" id="id1" /><br><br>
+<button id="but" onclick="addTextBox(this)">click</button><br><br><br>
+<form><div id="divsection"></div>
+<script>
+function addTextBox(ops) {
+    var no = document.getElementById("id1").value;
+    for (var i = Number(no);i >0; i--) 
+    {
+        console.log("enter book name");
+        var text = document.createElement("input"); 
+        text.type = "text"; 
+        text.id = "input" + i; 
+        document.getElementById("divsection").appendChild(text); 
+    }
+}
+
+</script>
+
+
+
+<button type = "submit" value = "add value" onclick="\"$("></fieldset>
+</center>
+</form>
+</body>
+</html>
+
